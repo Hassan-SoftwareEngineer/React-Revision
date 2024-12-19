@@ -22,11 +22,15 @@
     color: #593884;
     font-style: italic;
   }
+  .link {
+    text-decoration: none;
+    cursor: pointer;
+  }
 
   @keyframes animate-in {
     from {
       opacity: 0;
-      transform: translateY(5rem);
+      transform: translateY(1rem);
     }
     to {
       opacity: 1;
